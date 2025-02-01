@@ -8,7 +8,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <>
-      <h2>Contact Page</h2>
+      <h2 className="text-6xl">Contact Page</h2>
     </>
   )
 }
