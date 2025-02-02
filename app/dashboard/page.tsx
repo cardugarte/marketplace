@@ -1,9 +1,13 @@
 
+export const metadata = {
+  title: 'dashboard',
+  description: 'SEO Title',
+}
 
-export const Dashboard = () => {
+export default function Dashboard() {
   return (
     <>
-      <h2>Dashboard Page</h2>
+      <h2 className="text-6xl">Dashboard Page</h2>
     </>
   )
 }
