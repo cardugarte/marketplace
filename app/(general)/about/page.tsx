@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next"
+import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: 'SEO Title',
@@ -10,6 +11,7 @@ export default function About() {
   return (
     <>
       <h2 className="text-6xl">About Page</h2>
+      <Button>Click me</Button>
     </>
   )
 }
