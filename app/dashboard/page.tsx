@@ -1,6 +1,6 @@
 
 
-export const page = () => {
+export const Page = () => {
   return (
     <>Dashboard Page</>
   )
