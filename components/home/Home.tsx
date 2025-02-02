@@ -24,12 +24,12 @@ export const HomePage = () => {
   )
   return (
     <>
-      <div className="grid items-center justify-items-end p-8 pb-1 gap-16 sm:p-1 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid items-center justify-items-end h-full p-8 pb-1 gap-16 sm:p-1 font-[family-name:var(--font-geist-sans)]">
         <Navbar />
       </div>
       <main className="flex flex-col justify-center text-center">
         <div className='flex flex-row items-center justify-center'>
-          <BitcoinCircleIcon style={{ height: "200px", width: "200px", color: '#FFFFFF' }} />
+          <BitcoinCircleIcon style={{ height: "150px", width: "150px", color: '#FFFFFF' }} />
         </div>
         <h2 className="text-2xl">A simple and powerful platform to explore Argentina by paying with Bitcoin.</h2>
         <div className='mt-10 mb-10'>
