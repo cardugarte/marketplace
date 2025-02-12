@@ -31,7 +31,6 @@ export const Navbar = () => {
         </MenubarContent>
       </MenubarMenu>
     </Menubar>
-
     // </>
   )
 }
